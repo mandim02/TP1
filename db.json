@@ -2,7 +2,7 @@
     "utentes": [
         {"id": 1, "name" : "André Mandim"}
     ],
-    "staff": [
+    "staffs": [
         {"id": 1, "name": "Dr. Mandim", "password": "login123"}
     ]
 }

@@ -1,4 +1,4 @@
-let APIURL = "http://localhost:3000"
+let APIURL = "https://my-json-server.typicode.com/mandim02/TP1"
 
 
 function frontPageinteractions(){
@@ -40,12 +40,22 @@ function frontPageinteractions(){
 function loginFunction(){
     if (document.getElementById("login-box-header-text").textContent === "Utente"){
         let username = document.getElementById("login-form").username.value;
-        let request = new HTTPRequest();
-        request.get(APIURL + "/Utente")
+        let request = new XMLHttpRequest()
+        request.open("GET", APIURL + "/utentes?name=" + username);
+        request.send();
+        request.onreadystatechange = (e) => {
+            console.log(request.responseText)
+        }
     }
     if (document.getElementById("login-box-header-text").textContent === "Staff"){
         let username = document.getElementById("login-form").username.value;
         let password = document.getElementById("login-form").password.value;
+        let request = new XMLHttpRequest()
+        request.open("GET", APIURL + "/stentes?name=" + username);
+        request.send();
+        request.onreadystatechange = (e) => {
+            console.log(request.responseText)
+        }
     }
     
     
