@@ -1,10 +1,10 @@
 {
     "utentes": [
-        {"id": 1, "name" : "André Mandim", "role" : "Utente", "sns": "123123123"},
-        {"id": 2, "name" : "Eva", "role" : "Utente", "sns": "234234234"}
+        {"id": 1, "name" : "André Mandim", "role" : "Utente", "sns": "123123123", "blood": "A+"},
+        {"id": 2, "name" : "Eva", "role" : "Utente", "sns": "234234234",  "blood": "B-"}
     ],
     "staffs": [
-        {"id": 1, "name": "Mandim", "password": "login123", "role" : "Medico", "specialty" : "Medicina Geral"},
-        {"id": 2, "name": "Joao", "password": "login123", "role" : "Medico", "specialty" : "Oftalmologia"}
+        {"id": 1, "name": "Mandim", "password": "login123", "role" : "Medico", "specialty" : "Medicina Geral", "blood": "AB-"},
+        {"id": 2, "name": "Joao", "password": "login123", "role" : "Medico", "specialty" : "Oftalmologia", "blood": "AB-"}
     ]
 }
