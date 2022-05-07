@@ -1,8 +1,10 @@
 {
     "utentes": [
-        {"id": 1, "name" : "André Mandim"}
+        {"id": 1, "name" : "André Mandim", "role" : "Utente", "sns": "123123123"},
+        {"id": 2, "name" : "Eva", "role" : "Utente", "sns": "234234234"}
     ],
     "staffs": [
-        {"id": 1, "name": "Dr. Mandim", "password": "login123"}
+        {"id": 1, "name": "Mandim", "password": "login123", "role" : "Medico", "especialidade" : "Medicina Geral"},
+        {"id": 2, "name": "Joao", "password": "login123", "role" : "Medico", "especialidade" : "Oftalmologia"}
     ]
 }
